@@ -1,0 +1,32 @@
+.comment-list {
+
+    &__item {
+        border: 1px solid grey;
+        padding: 20px;
+        position: relative;
+        margin-bottom: 20px;
+
+        & p {
+            margin: 10px 0;
+        }
+    }
+
+    &__date {
+        font-size: 14px;
+    }
+
+    &__button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: 0;
+        background-color: transparent;
+        color: red;
+        transition: text-shadow 0.3s;
+
+        &:hover {
+            text-shadow: 0 0 1px red;
+            transition: text-shadow 0.3s;
+        }
+    }
+}
